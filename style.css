@@ -101,11 +101,24 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
+@media (max-width: 600px) {
+  .project-links {
+    display: flex;
+  }
+  h1 {
+    font-size: 58px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .email-link {
+    font-size: 24px;
+  }
+}
 
 .bg-primary {
   background-color: var(--secondary-color) !important;
-}
-img {
-  padding-top: 47px;
-  padding-bottom: 47px;
 }
