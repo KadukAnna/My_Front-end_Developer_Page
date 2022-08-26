@@ -42,6 +42,10 @@ h3 {
   text-transform: capitalize;
 }
 
+#contact {
+  margin: 20px auto;
+}
+
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -116,6 +120,16 @@ h3 {
   }
   .email-link {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 38px;
+  }
+
+  .email-link {
+    font-size: 20px;
   }
 }
 
